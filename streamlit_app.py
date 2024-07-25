@@ -11,7 +11,7 @@ gender = st.radio("Gender", ("Male", "Female"))
 height = st.slider("Height (cm)", 150, 190)
 
 # Weight input
-weight = st.slider("Weight (kg)", 40, 200)
+weight = st.slider("Weight (kg)", 40, 120)
 
 # Calculate BMI
 bmi = weight / ((height / 100) ** 2)
